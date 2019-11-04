@@ -1,0 +1,2185 @@
+﻿{
+  "ServiceList": [
+    //Zia
+    {
+      "UnitName": "C-1100",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II HP inlet.rvf",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1100-100.PI-1100-100.Pressure"
+        },
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1101.PI-1101A.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1100-100.TI-1100-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1100-200.TI-1100-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1100.SI-1100(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1102.PI-1102A.Pressure"
+      },
+      "LoadStep": "57",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1100-110.PI-1100-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1100-210.PI-1100-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-1150",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II HP inlet.rvf",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1150-100.PI-1150-100.Pressure"
+        },
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1151.PI-1151A.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1150-100.TI-1150-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1150-200.TI-1150-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1150.SI-1150(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1152.PI-1152A.Pressure"
+      },
+      "LoadStep": "57",
+
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1150-110.PI-1150-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1150-210.PI-1150-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+
+    },
+    {
+      "UnitName": "C-1200",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II HP inlet.rvf",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1200-100.PI-1200-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1201.PI-1201A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1200-100.TI-1200-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1200-200.TI-1200-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1200.SI-1200(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1202.PI-1202A.Pressure"
+      },
+      "LoadStep": "57",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1200-110.PI-1200-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1200-210.PI-1200-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+
+    },
+    {
+      "UnitName": "C-1250",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II HP inlet.rvf",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1250-100.PI-1250-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1251.PI-1251A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1250-100.TI-1250-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1250-200.TI-1250-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1250.SI-1250(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1252.PI-1252A.Pressure"
+      },
+      "LoadStep": "57",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1250-110.PI-1250-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1250-210.PI-1250-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+
+    },
+    {
+      "UnitName": "C-1300",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II Residue.rvf",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1300-100.PI-1300-100.Pressure"
+        },
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1301.PI-1301A.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1300-100.TI-1300-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1300-200.TI-1300-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1300.Si-1300(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1302.PI-1302A.Pressure"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1300-110.PI-1300-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 5 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1300-210.PI-1300-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4, 6 ]
+        }
+      ]
+
+    },
+    {
+      "UnitName": "C-1350",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II Residue.rvf",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1350-100.PI-1350-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1351.PI-1351A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1350-100.TI-1350-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1350-200.TI-1350-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1350.Si-1350(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1352.PI-1352A.Pressure"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1350-110.PI-1350-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 5 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1350-210.PI-1350-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4, 6 ]
+        }
+      ]
+
+    },
+    {
+      "UnitName": "C-1400",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II Residue.rvf",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1400-100.PI-1400-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1401.PI-1401A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1400-100.TI-1400-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1400-200.TI-1400-230.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1402.PI-1402A.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1400.SI-1400(CS).Speed"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1400-110.PI-1400-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 5 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1400-210.PI-1400-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4, 6 ]
+        }
+      ]
+
+    },
+    {
+      "UnitName": "C-1450",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II Residue.rvf",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1450-100.PI-1450-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1451.PI-1451A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1450-100.TI-1450-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1450-200.TI-1450-230.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1452.PI-1452A.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1450.SI-1450(CS).Speed"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1450-110.PI-1450-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1450-210.PI-1450-300.Pressure"
+          },
+          "CylinderSet": [ 4, 5, 6 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-1500",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II LP Inlet.rvf",
+      "ServiceName": "LP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-100.PI-1500-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1501.PI-1501A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-100.TI-1500-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-200.TI-1500-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-300.TI-1500-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-400.TI-1500-420.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1500-410.PI-1504.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1500.SI-1500(CS).Speed"
+      },
+      "LoadStep": "4",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-110.PI-1500-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-210.PI-1500-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-310.PI-1500-400.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-410.PI-1500-500.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-1550",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II LP Inlet.rvf",
+      "ServiceName": "LP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-100.PI-1550-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1551.PI-1551A.Pressure"
+        }
+
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-100.TI-1550-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-200.TI-1550-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-300.TI-1550-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-400.TI-1550-420.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1550-410.PI-1554.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1550.SI-1550(CS).Speed"
+      },
+      "LoadStep": "4",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-110.PI-1550-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-210.PI-1550-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-310.PI-1550-400.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-410.PI-1550-500.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-1600",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II AGI.rvf",
+      "ServiceName": "AGI",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-100.PI-1600-100.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-100.TI-1600-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-200.TI-1600-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-300.TI-1600-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-400.TI-1600-420.Temperature"
+        },
+        "Ts5": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-500.TI-1600-520.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1600-510.PI-1600-600.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1600-100.SI-1600GB(CS).Speed"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-110.PI-1600-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-210.PI-1600-300.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-310.PI-1600-400.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-410.PI-1600-500.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 5,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-510.PI-1600-600.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-1650",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\ZIA-II\\ZIA II AGI.rvf",
+      "ServiceName": "AGI",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-100.PI-1650-100.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-100.TI-1650-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-200.TI-1650-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-300.TI-1650-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-400.TI-1650-420.Temperature"
+        },
+        "Ts5": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-500.TI-1650-520.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1650-510.PI-1650-600.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1650-100.SI-1650FB(CS).Speed"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-110.PI-1650-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-210.PI-1650-300.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-310.PI-1650-400.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-410.PI-1650-500.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 5,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-510.PI-1650-600.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    },
+    //Meubourn
+    {
+      "UnitName": "C-250",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\04-North\\Mewbourn\\Mewbourn Residue.rvf",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C250.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C250.PTyy04.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C250.TTyy13.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C250.TTyy14.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C250.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C250.PTyy03.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C250.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C250.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-251",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\04-North\\Mewbourn\\Mewbourn Residue.rvf",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C251.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C251.PTyy11.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C251.TTyy21.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C251.TTyy22.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C251.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C251.PTyy10.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C251.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C251.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-252",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\04-North\\Mewbourn\\Mewbourn Residue.rvf",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C252.PTyy16.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C252.PTyy18.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C252.TTyy29.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C252.TTyy30.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C252.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C252.PTyy17.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C252.PTyy15.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C252.PTyy17.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-253",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\04-North\\Mewbourn\\Mewbourn Residue.rvf",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C253.PTyy23.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C253.PTyy25.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C253.TTyy37.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C253.TTyy38.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C253.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C253.PTyy24.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C253.PTyy22.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C253.PTyy24.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    },
+    {
+      "UnitName": "C-254",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\04-North\\Mewbourn\\Mewbourn Residue.rvf",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C254.PTyy30.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C254.PTyy32.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C254.TTyy45.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C254.TTyy46.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C254.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C254.PTyy31.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C254.PTyy29.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C254.PTyy31.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    },
+    //Strawberry
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\strawberry\\Strawberry Unit 1.rvf",
+      "ServiceName": "Strawberry",
+      "StageSuctionPressure": {
+        "Ps1": {
+          //"Name": "Windrock.Strawberry_Booster_Unit_1/comp/cyl1/he/suctionToePress" //(Spotlight)
+          "Name": "LINAGSG.STRAWBCS.ENG1.PTyy82.Pressure"
+        },
+        "Ps2": {
+          "Name": "Windrock.Strawberry_Booster_Unit_1/comp/cyl3/he/suctionToePress"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Strawberry_Booster_Unit_1/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Strawberry_Booster_Unit_1/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Strawberry_Booster_Unit_1/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG1.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG1.PTyy04.Pressure"
+      },
+      "LoadStep": "7",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG1.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG1.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Strawberry Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\strawberry\\Strawberry Unit 2.rvf",
+      "ServiceName": "Strawberry",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.STRAWBCS.ENG2.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "Windrock.Strawberry_Booster_Unit_2/comp/cyl1/he/suctionToePress"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Strawberry_Booster_Unit_2/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Strawberry_Booster_Unit_2/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Strawberry_Booster_Unit_2/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG2.PTyy04.Pressure"
+      },
+      "LoadStep": "7",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG2.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG2.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Strawberry Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\strawberry\\Strawberry Unit 3.rvf",
+      "ServiceName": "Strawberry",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.STRAWBCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "Windrock.Strawberry_Booster_Unit_3/comp/cyl3/he/suctionToePress"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Strawberry_Booster_Unit_3/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Strawberry_Booster_Unit_3/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Strawberry_Booster_Unit_3/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG3.PTyy04.Pressure"
+      },
+      "LoadStep": "7",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG3.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Strawberry Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\strawberry\\Strawberry Unit 4.rvf",
+      "ServiceName": "Strawberry",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.STRAWBCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "Windrock.Strawberry_Booster_Unit_3/comp/cyl3/he/suctionToePress"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Strawberry_Bootser_Unit_4/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Strawberry_Bootser_Unit_4/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Strawberry_Bootser_Unit_4/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG4.PTyy04.Pressure"
+      },
+      "LoadStep": "7",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG4.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Strawberry Unit 4
+
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\200\\Station 200 U1nU3.rvf",
+      "ServiceName": "200",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "Windrock.200_Booster_Unit_1/comp/cyl2/he/suctionToePress"
+        },
+        "Ps2": {
+          "Name": "Windrock.200_Booster_Unit_1/comp/cyl1/he/suctionToePress"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.200_Booster_Unit_1/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.200_Booster_Unit_1/comp/cyl1/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.200_Booster_Unit_1/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "Windrock.200_Booster_Unit_1/comp/cyl1/he/dischargeToePress"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "Windrock.200_Booster_Unit_1/comp/cyl2/he/dischargeToePress"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "Windrock.200_Booster_Unit_1/comp/cyl1/he/dischargeToePress"
+          },
+          "CylinderSet": [ 1, 3 ]
+        }
+      ]
+    }, //200 - Unit 1
+
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\400\\Station 400 U2.rvf",
+      "ServiceName": "400",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "Windrock.400_Booster_Unit_2/comp/cyl2/he/suctionToePress"
+        },
+        "Ps2": {
+          "Name": "Windrock.400_Booster_Unit_2/comp/cyl1/ce/suctionToePress"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.400_Booster_Unit_2/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.400_Booster_Unit_2/comp/cyl1/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.400_Booster_Unit_2/comp/cyl3/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.400_Booster_Unit_2/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "Windrock.400_Booster_Unit_2/comp/cyl3/he/dischargeToePress"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "Windrock.400_Booster_Unit_2/comp/cyl2/he/dischargeToePress"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "Windrock.400_Booster_Unit_2/comp/cyl1/he/dischargeToePress"
+          },
+          "CylinderSet": [ 1 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "Windrock.400_Booster_Unit_2/comp/cyl3/he/dischargeToePress"
+          },
+          "CylinderSet": [ 3 ]
+        }
+      ]
+    }, //400 - Unit 2
+
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\300\\300 Unit 1.rvf",
+      "ServiceName": "300",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "Windrock.300_Booster_Unit_1/comp/cyl2/he/suctionToePress"
+        },
+        "Ps2": {
+          "Name": "Windrock.300_Booster_Unit_1/comp/cyl1/he/suctionToePress"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.300_Booster_Unit_1/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.300_Booster_Unit_1/comp/cyl1/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.300_Booster_Unit_1/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "Windrock.300_Booster_Unit_1/comp/cyl1/he/dischargeToePress"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "Windrock.300_Booster_Unit_1/comp/cyl2/he/dischargeToePress"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "Windrock.300_Booster_Unit_1/comp/cyl1/he/dischargeToePress"
+          },
+          "CylinderSet": [ 1, 3 ]
+        }
+      ]
+    }, //300 - Unit 1
+
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\WestTurkyTrack\\WWT Unit 1.rvf",
+      "ServiceName": "WTT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "CARLGSG.WTURKECS.ENG1.PTyy19.Pressure"
+        },
+        "Ps2": {
+          "Name": "CARLGSG.WTURKECS.ENG1.PTyy20.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_1/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_1/comp/cyl4/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_1/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "CARLGSG.WTURKECS.ENG1.STyy81.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG1.PTyy17.Pressure"
+      },
+      "LoadStep": "16",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG1.PTyy20.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG1.PTyy18.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG1.PTyy17.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    }, //WTT Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\WestTurkyTrack\\WWT Unit 2.rvf",
+      "ServiceName": "WTT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "CARLGSG.WTURKECS.ENG2.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "CARLGSG.WTURKECS.ENG2.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_2/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_2/comp/cyl4/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_2/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "CARLGSG.WTURKECS.ENG2.STyy81.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG2.PTyy07.Pressure"
+      },
+      "LoadStep": "16",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG2.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG2.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG2.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    }, //WTT Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\WestTurkyTrack\\WWT Unit 3.rvf",
+      "ServiceName": "WTT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_3/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_3/comp/cyl4/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_3/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "CARLGSG.WTURKECS.ENG3.STyy81.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG3.PTyy07.Pressure"
+      },
+      "LoadStep": "16",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG3.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG3.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG3.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    }, //WTT Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\WestTurkyTrack\\WWT Unit 4.rvf",
+      "ServiceName": "WTT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "CARLGSG.WTURKECS.ENG4.PTyy82.Pressure"
+        },
+        "Ps2": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_4/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_4/comp/cyl4/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.West_Turkey_Track_Booster_Unit_4/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "CARLGSG.WTURKECS.ENG4.STyy81.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG4.PTyy84.Pressure"
+      },
+      "LoadStep": "16",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG4.PTyy81.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG4.PTyy83.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG4.PTyy84.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    }, //WTT Unit 4
+
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\RJ\\RJ unit 1.rvf",
+      "ServiceName": "RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.RJ_Booster_Unit_1/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.RJ_Booster_Unit_1/comp/cyl1/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.RJ_Booster_Unit_1/comp/cyl3/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.RJ_Booster_Unit_1/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy07.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        }
+      ]
+    }, //RJ Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\RJ\\RJ unit 2.rvf",
+      "ServiceName": "RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.RJ_Booster_Unit_2/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.RJ_Booster_Unit_2/comp/cyl1/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.RJ_Booster_Unit_2/comp/cyl3/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.RJ_Booster_Unit_2/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy07.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        }
+      ]
+    }, //RJ Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\RJ\\RJ unit 3.rvf",
+      "ServiceName": "RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.RJ_Booster_Unit_3/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.RJ_Booster_Unit_3/comp/cyl1/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.RJ_Booster_Unit_3/comp/cyl3/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.RJ_Booster_Unit_3/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy07.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        }
+      ]
+    }, //RJ Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\RJ\\RJ unit 4.rvf",
+      "ServiceName": "RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy10.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy11.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.RJ_Booster_Unit_4/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.RJ_Booster_Unit_4/comp/cyl1/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.RJ_Booster_Unit_4/comp/cyl3/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.RJ_Booster_Unit_4/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy08.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy09.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        }
+      ]
+    }, //RJ Unit 4
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\Lovington\\Lovington.rvf",
+      "ServiceName": "Lovington",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.LOVINGCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "Windrock.Lovington_Unit_4/comp/cyl1/he/suctionToePress"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Lovington_Unit_4/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Lovington_Unit_4/comp/cyl1/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Lovington_Unit_4/comp/cyl3/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.LOVINGCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.LOVINGCS.ENG4.PTyy04.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.LOVINGCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.LOVINGCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.LOVINGCS.ENG4.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    }, //Lovington Unit 2
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\Moss Lake\\Moss Lake unit 1.rvf",
+      "ServiceName": "Moss Lake",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RAWHGSG.MOSSLACS.ENG1.PTyy04.Pressure"
+        },
+        "Ps2": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_1P/comp/cyl2/he/suctionToePress"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_1P/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_1P/comp/cyl4/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_1P/comp/cyl2/he/suctionTemp"
+        }
+      },
+      //Speed Tag Not available 5/10/18
+      "EngineSpeed": {
+        "Name": "Windrock.Moss_Lake_Booster_Unit_1P/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "RAWHGSG.MOSSLACS.ENG1.PTyy06.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RAWHGSG.MOSSLACS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RAWHGSG.MOSSLACS.ENG1.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RAWHGSG.MOSSLACS.ENG1.PTyy06.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    }, //Moss Lake Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\Moss Lake\\Moss Lake unit 2.rvf",
+      "ServiceName": "Moss Lake",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RAWHGSG.MOSSLACS.ENG2.PTyy04.Pressure"
+        },
+        "Ps2": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_2P/comp/cyl2/he/suctionToePress"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_2P/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_2P/comp/cyl2/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Moss_Lake_Booster_Unit_2P/comp/cyl3/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "Windrock.Moss_Lake_Booster_Unit_2P/comp/averageSpeed"
+      },
+      "DischargePressure": {
+        "Name": "RAWHGSG.MOSSLACS.ENG2.PTyy06.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RAWHGSG.MOSSLACS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RAWHGSG.MOSSLACS.ENG2.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RAWHGSG.MOSSLACS.ENG2.PTyy06.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    }, //Moss Lake Unit 2
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\CDU\\CDU Unit 1.rvf",
+      "ServiceName": "CDU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy12.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy11.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.CDU_Booster_Unit_1/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.CDU_Booster_Unit_1/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.CDU_Booster_Unit_1/comp/cyl1/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG1.STyy02.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy14.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy14.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        }
+      ]
+    }, //CDU Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\CDU\\CDU Unit 2.rvf",
+      "ServiceName": "CDU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy12.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy11.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.CDU_Booster_Unit_2/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.CDU_Booster_Unit_2/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.CDU_Booster_Unit_2/comp/cyl1/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG2.STyy02.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy14.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy14.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        }
+      ]
+    }, //CDU Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\CDU\\CDU Unit 3.rvf",
+      "ServiceName": "CDU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy01.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.CDU_Booster_Unit_3/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.CDU_Booster_Unit_3/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.CDU_Booster_Unit_3/comp/cyl1/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy04.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 2, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        }
+      ]
+    }, //CDU Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\CDU\\CDU Unit 4.rvf",
+      "ServiceName": "CDU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.CDU_Booster_Unit_4/comp/cyl2/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.CDU_Booster_Unit_4/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.CDU_Booster_Unit_4/comp/cyl1/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy04.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        }
+      ]
+    }, //CDU Unit 4
+
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\Luther\\Luther unit 3.rvf",
+      "ServiceName": "Luther",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RAWHGSG.LUTHERCS.ENG3.PTyy12.Pressure"
+        },
+        "Ps2": {
+          "Name": "RAWHGSG.LUTHERCS.ENG3.PTyy02.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Luther_Booster_Unit_3/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Luther_Booster_Unit_3/comp/cyl3/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Luther_Booster_Unit_3/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RAWHGSG.LUTHERCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "RAWHGSG.LUTHERCS.ENG3.PTyy14.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG3.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG3.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG3.PTyy14.Pressure"
+          },
+          "CylinderSet": [ 3 ]
+        }
+      ]
+    }, //Luther Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "\\\\pitnas\\data\\ACI\\Development\\02-Permian\\Luther\\Luther unit 4.rvf",
+      "ServiceName": "Luther",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RAWHGSG.LUTHERCS.ENG4.PTyy12.Pressure"
+        },
+        "Ps2": {
+          "Name": "RAWHGSG.LUTHERCS.ENG4.PTyy12.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "Windrock.Luther_Booster_Unit_4/comp/cyl1/he/suctionTemp"
+        },
+        "Ts2": {
+          "Name": "Windrock.Luther_Booster_Unit_4/comp/cyl4/he/suctionTemp"
+        },
+        "Ts3": {
+          "Name": "Windrock.Luther_Booster_Unit_4/comp/cyl2/he/suctionTemp"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RAWHGSG.LUTHERCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "RAWHGSG.LUTHERCS.ENG4.PTyy14.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG4.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG4.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG4.PTyy14.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        }
+      ]
+    } //Luther Unit 4
+
+
+  ]
+}

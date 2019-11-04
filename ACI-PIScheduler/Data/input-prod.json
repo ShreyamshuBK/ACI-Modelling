@@ -1,0 +1,3448 @@
+﻿{
+  "ServiceList": [
+    //ZIA II
+    {
+      "UnitName": "C-1100",
+      "ViewerFileName": "ZIA II HP inlet",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1100-100.PI-1100-100.Pressure"
+        },
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1101.PI-1101A.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1100-100.TI-1100-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1100-200.TI-1100-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1100.SI-1100(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1102.PI-1102A.Pressure"
+      },
+      "LoadStep": "57",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1100-110.PI-1100-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1100-210.PI-1100-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C-1100
+    {
+      "UnitName": "C-1150",
+      "ViewerFileName": "ZIA II HP inlet",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1150-100.PI-1150-100.Pressure"
+        },
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1151.PI-1151A.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1150-100.TI-1150-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1150-200.TI-1150-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1150.SI-1150(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1152.PI-1152A.Pressure"
+      },
+      "LoadStep": "57",
+
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1150-110.PI-1150-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1150-210.PI-1150-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+
+    }, //C-1150
+    {
+      "UnitName": "C-1200",
+      "ViewerFileName": "ZIA II HP inlet",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1200-100.PI-1200-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1201.PI-1201A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1200-100.TI-1200-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1200-200.TI-1200-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1200.SI-1200(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1202.PI-1202A.Pressure"
+      },
+      "LoadStep": "57",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1200-110.PI-1200-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1200-210.PI-1200-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+
+    }, //C-1200
+    {
+      "UnitName": "C-1250",
+      "ViewerFileName": "ZIA II HP inlet",
+      "ServiceName": "HP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1250-100.PI-1250-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1251.PI-1251A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1250-100.TI-1250-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1250-200.TI-1250-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1250.SI-1250(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1252.PI-1252A.Pressure"
+      },
+      "LoadStep": "57",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1250-110.PI-1250-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1250-210.PI-1250-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+
+    }, //C-1250
+    {
+      "UnitName": "C-1300",
+      "ViewerFileName": "ZIA II Residue",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1300-100.PI-1300-100.Pressure"
+        },
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1301.PI-1301A.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1300-100.TI-1300-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1300-200.TI-1300-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1300.Si-1300(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1302.PI-1302A.Pressure"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1300-110.PI-1300-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 5 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1300-210.PI-1300-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4, 6 ]
+        }
+      ]
+
+    }, //C-1300
+    {
+      "UnitName": "C-1350",
+      "ViewerFileName": "ZIA II Residue",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1350-100.PI-1350-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1351.PI-1351A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1350-100.TI-1350-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1350-200.TI-1350-230.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1350.Si-1350(CS).Speed"
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1352.PI-1352A.Pressure"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1350-110.PI-1350-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 5 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1350-210.PI-1350-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4, 6 ]
+        }
+      ]
+
+    }, //C-1350
+    {
+      "UnitName": "C-1400",
+      "ViewerFileName": "ZIA II Residue",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1400-100.PI-1400-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1401.PI-1401A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1400-100.TI-1400-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1400-200.TI-1400-230.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1402.PI-1402A.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1400.SI-1400(CS).Speed"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1400-110.PI-1400-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 5 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1400-210.PI-1400-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4, 6 ]
+        }
+      ]
+
+    }, //C-1400
+    {
+      "UnitName": "C-1450",
+      "ViewerFileName": "ZIA II Residue",
+      "ServiceName": "Residue",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1450-100.PI-1450-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1451.PI-1451A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1450-100.TI-1450-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1450-200.TI-1450-230.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.AC-1452.PI-1452A.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1450.SI-1450(CS).Speed"
+      },
+      "LoadStep": "19",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1450-110.PI-1450-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1450-210.PI-1450-300.Pressure"
+          },
+          "CylinderSet": [ 4, 5, 6 ]
+        }
+      ]
+    }, //C-1450
+    {
+      "UnitName": "C-1500",
+      "ViewerFileName": "ZIA II LP Inlet",
+      "ServiceName": "LP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-100.PI-1500-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1501.PI-1501A.Pressure"
+        }
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-100.TI-1500-100.Temperature"
+        },
+
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-200.TI-1500-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-300.TI-1500-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1500-400.TI-1500-420.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1500-410.PI-1504.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1500.SI-1500(CS).Speed"
+      },
+      "LoadStep": "4",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-110.PI-1500-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-210.PI-1500-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-310.PI-1500-400.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1500-410.PI-1500-500.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    }, //C-1500
+    {
+      "UnitName": "C-1550",
+      "ViewerFileName": "ZIA II LP Inlet",
+      "ServiceName": "LP Inlet",
+      "StageSuctionPressure": {
+
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-100.PI-1550-100.Pressure"
+        },
+
+        "Ps2": {
+          "Name": "SENWPTG.ZIA2XXPT.AC-1551.PI-1551A.Pressure"
+        }
+
+
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-100.TI-1550-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-200.TI-1550-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-300.TI-1550-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1550-400.TI-1550-420.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1550-410.PI-1554.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1550.SI-1550(CS).Speed"
+      },
+      "LoadStep": "4",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-110.PI-1550-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-210.PI-1550-300.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-310.PI-1550-400.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1550-410.PI-1550-500.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    }, //C-1550
+    {
+      "UnitName": "C-1600",
+      "ViewerFileName": "ZIA II AGI",
+      "ServiceName": "AGI",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-100.PI-1600-100.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-100.TI-1600-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-200.TI-1600-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-300.TI-1600-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-400.TI-1600-420.Temperature"
+        },
+        "Ts5": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1600-500.TI-1600-520.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1600-510.PI-1600-600.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1600-100.SI-1600GB(CS).Speed"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-110.PI-1600-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-210.PI-1600-300.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-310.PI-1600-400.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-410.PI-1600-500.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 5,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1600-510.PI-1600-600.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    }, //C-1600
+    {
+      "UnitName": "C-1650",
+      "ViewerFileName": "ZIA II AGI",
+      "ServiceName": "AGI",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-100.PI-1650-100.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-100.TI-1650-100.Temperature"
+        },
+        "Ts2": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-200.TI-1650-220.Temperature"
+        },
+        "Ts3": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-300.TI-1650-320.Temperature"
+        },
+        "Ts4": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-400.TI-1650-420.Temperature"
+        },
+        "Ts5": {
+          "Name": "SENWPTG.ZIA2XXPT.V-1650-500.TI-1650-520.Temperature"
+        }
+      },
+      "DischargePressure": {
+        "Name": "SENWPTG.ZIA2XXPT.B-1650-510.PI-1650-600.Pressure"
+      },
+      "EngineSpeed": {
+        "Name": "SENWPTG.ZIA2XXPT.C-1650-100.SI-1650FB(CS).Speed"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-110.PI-1650-200.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-210.PI-1650-300.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-310.PI-1650-400.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-410.PI-1650-500.Pressure"
+          },
+          "CylinderSet": [ 5 ]
+        },
+        {
+          "Stage": 5,
+          "Pd": {
+            "Name": "SENWPTG.ZIA2XXPT.B-1650-510.PI-1650-600.Pressure"
+          },
+          "CylinderSet": [ 6 ]
+        }
+      ]
+    }, //C-1650
+    //Meubourn
+    {
+      "UnitName": "C-250",
+      "ViewerFileName": "Mewbourn Residue",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C250.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C250.PTyy04.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C250.TTyy13.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C250.TTyy14.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C250.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C250.PTyy03.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C250.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C250.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C-250
+    {
+      "UnitName": "C-251",
+      "ViewerFileName": "Mewbourn Residue",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C251.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C251.PTyy11.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C251.TTyy21.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C251.TTyy22.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C251.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C251.PTyy10.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C251.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C251.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C-251
+    {
+      "UnitName": "C-252",
+      "ViewerFileName": "Mewbourn Residue",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C252.PTyy16.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C252.PTyy18.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C252.TTyy29.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C252.TTyy30.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C252.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C252.PTyy17.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C252.PTyy15.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C252.PTyy17.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C-252
+    {
+      "UnitName": "C-253",
+      "ViewerFileName": "Mewbourn Residue",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C253.PTyy23.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C253.PTyy25.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C253.TTyy37.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C253.TTyy38.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C253.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C253.PTyy24.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C253.PTyy22.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C253.PTyy24.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C-253
+    {
+      "UnitName": "C-254",
+      "ViewerFileName": "Mewbourn Residue",
+      "ServiceName": "Mewbourn Residue",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.MEWBOUPT.C254.PTyy30.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.MEWBOUPT.C254.PTyy32.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.MEWBOUPT.C254.TTyy45.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.MEWBOUPT.C254.TTyy46.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.MEWBOUPT.C254.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.MEWBOUPT.C254.PTyy31.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C254.PTyy29.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.MEWBOUPT.C254.PTyy31.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C-254
+    //Lucrene 1
+    {
+      "UnitName": "C-106",
+      "ViewerFileName": "luc1\\lucerne inlet 106-107",
+      "ServiceName": "Lucrene 1 Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG106.PTyy10.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG106.PTyy12.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG106.TTyy25.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG106.TTyy27.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG106.STyy02.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG106.TTyy11.Temperature" //Wrong extension because it is mapped as it is in scada
+      },
+      "LoadStep": "9",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG106.PTyy30.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG106.TTyy11.Temperature" //Wrong extension because it is mapped as it is in scada
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C106
+    {
+      "UnitName": "C-107",
+      "ViewerFileName": "luc1\\lucerne inlet 106-107",
+      "ServiceName": "Lucrene 1 Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG107.PTyy18.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG107.PTyy20.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG107.TTyy49.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG107.TTyy51.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG107.STyy03.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG107.PTyy20.Pressure"
+      },
+      "LoadStep": "9",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG107.PTyy17.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG107.PTyy20.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C107
+    {
+      "UnitName": "C-112",
+      "ViewerFileName": "luc1\\lucerne 112-113 inlet",
+      "ServiceName": "Lucrene 1 Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG112.PTyy50.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG112.PTyy52.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG112.TTyy550.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG112.TTyy570.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG112.STyy07.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG112.TTyy51.Temperature"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG112.PTyy49.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG112.TTyy51.Temperature"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C112
+    {
+      "UnitName": "C-113",
+      "ViewerFileName": "luc1\\lucerne 112-113 inlet",
+      "ServiceName": "Lucrene 1 Inlet",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG113.PTyy58.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG113.PTyy60.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG113.TTyy790.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG113.TTyy810.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG113.STyy08.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG113.TTyy59.Temperature"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG113.PTyy57.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG113.TTyy59.Temperature"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C113
+    {
+      "UnitName": "C-108",
+      "ViewerFileName": "luc1\\Lucerne 108,109,110",
+      "ServiceName": "Lucerne 108,109,110",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG108.PTyy26.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG108.PTyy28.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG108.TTyy73.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG108.TTyy75.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG108.STyy04.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG108.TTyy27.Temperature"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG108.PTyy25.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG108.TTyy27.Temperature"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C108
+    {
+      "UnitName": "C-109",
+      "ViewerFileName": "luc1\\Lucerne 108,109,110",
+      "ServiceName": "Lucerne 108,109,110",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG109.PTyy34.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG109.PTyy36.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG109.TTyy97.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG109.TTyy99.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG109.STyy05.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG109.TTyy35.Temperature"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG109.PTyy33.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG109.TTyy35.Temperature"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C109
+    {
+      "UnitName": "C-110",
+      "ViewerFileName": "luc1\\Lucerne 108,109,110",
+      "ServiceName": "Lucerne 108,109,110",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG110.PTyy42.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG110.PTyy44.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG110.TTyy310.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG110.TTyy330.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG110.STyy06.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG110.TTyy43.Temperature"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG110.TTyy43.Temperature"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG110.TTyy43.Temperature"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C110
+    {
+      "UnitName": "C-105",
+      "ViewerFileName": "luc1\\105 1st stage",
+      "ServiceName": "105 1st stage",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WELDPTG.LUCER1PT.ENG105.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "WELDPTG.LUCER1PT.ENG105.PTyy04.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WELDPTG.LUCER1PT.ENG105.TTyy11.Temperature"
+        },
+        "Ts2": {
+          "Name": "WELDPTG.LUCER1PT.ENG105.TTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WELDPTG.LUCER1PT.ENG105.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "WELDPTG.LUCER1PT.ENG105.TTyy33.Temperature"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG105.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WELDPTG.LUCER1PT.ENG105.TTyy33.Temperature"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    }, //C105
+    //Woodword County 2 #Unit 5
+    {
+      "UnitName": "Unit 5",
+      "ViewerFileName": "w2\\WW unit 5",
+      "ServiceName": "WW unit 5",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "WOODGSG.WOODW2CS.ENG5.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "WOODGSG.WOODW2CS.ENG5.PTyy10.Pressure"
+        }
+      },
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "WOODGSG.WOODW2CS.ENG5.TTyy02.Temperature"
+        },
+        "Ts2": {
+          "Name": "WOODGSG.WOODW2CS.ENG5.TTyy18.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "WOODGSG.WOODW2CS.ENG5.STyy01.Speed"
+      },
+      "DischargePressure": {
+        "Name": "WOODGSG.WOODW2CS.ENG5.PTyy09.Pressure"
+      },
+      "LoadStep": "1",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "WOODGSG.WOODW2CS.ENG5.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "WOODGSG.WOODW2CS.ENG5.PTyy09.Pressure"
+          },
+          "CylinderSet": [ 2, 4 ]
+        }
+      ]
+    },
+    //Strawberry
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "strawberry\\Strawberry RRU 676 641 625 cylinders",
+      "ServiceName": "Strawberry RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.STRAWBCS.ENG1.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "LINAGSG.STRAWBCS.ENG1.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LINAGSG.STRAWBCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "LINAGSG.STRAWBCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "LINAGSG.STRAWBCS.ENG1.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG1.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG1.PTyy04.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG1.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG1.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "strawberry\\Strawberry RRU 676 641 625 cylinders",
+      "ServiceName": "Strawberry RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.STRAWBCS.ENG2.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "LINAGSG.STRAWBCS.ENG2.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LINAGSG.STRAWBCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "LINAGSG.STRAWBCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "LINAGSG.STRAWBCS.ENG2.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG2.PTyy04.Pressure"
+      },
+      "LoadStep": "14",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG2.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG2.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "strawberry\\Strawberry RRU 676 641 625 cylinders",
+      "ServiceName": "Strawberry RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.STRAWBCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "LINAGSG.STRAWBCS.ENG3.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LINAGSG.STRAWBCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "LINAGSG.STRAWBCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "LINAGSG.STRAWBCS.ENG3.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG3.PTyy04.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG3.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "strawberry\\Strawberry RRU 676 641 625 cylinders",
+      "ServiceName": "Strawberry RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LINAGSG.STRAWBCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "LINAGSG.STRAWBCS.ENG4.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LINAGSG.STRAWBCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "LINAGSG.STRAWBCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "LINAGSG.STRAWBCS.ENG4.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LINAGSG.STRAWBCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LINAGSG.STRAWBCS.ENG4.PTyy04.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LINAGSG.STRAWBCS.ENG4.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 4
+    //GMAX
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "gmax\\GMAX Ariel RRU.rvf",
+      "ServiceName": "GMAX Ariel RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG1.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy07.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG1.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "gmax\\GMAX Ariel RRU.rvf",
+      "ServiceName": "GMAX Ariel RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy07.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG2.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "gmax\\GMAX Ariel RRU.rvf",
+      "ServiceName": "GMAX Ariel RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy07.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG3.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "gmax\\GMAX Ariel RRU.rvf",
+      "ServiceName": "GMAX Ariel RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy07.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.GMAXXXCS.ENG4.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //unit 4
+    //RJ
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "RJ\\676 641 625 Cylinders RJ.rvf",
+      "ServiceName": "676 641 625 Cylinders RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG1.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy07.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG1.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "RJ\\676 641 625 Cylinders RJ.rvf",
+      "ServiceName": "676 641 625 Cylinders RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy07.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG2.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "RJ\\676 641 625 Cylinders RJ.rvf",
+      "ServiceName": "676 641 625 Cylinders RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG3.TTyy32.Temperature"
+        },
+        "Ts2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG3.TTyy34.Temperature"
+        },
+        "Ts3": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG3.TTyy30.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy07.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG3.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "RJ\\676 641 625 Cylinders RJ.rvf",
+      "ServiceName": "676 641 625 Cylinders RJ",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy10.Pressure"
+        },
+        "Ps2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy11.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG4.STyy02.RPM"
+      },
+      "DischargePressure": {
+        "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy08.Pressure"
+      },
+      "LoadStep": "13",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy09.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "LOCOGSG.RJXXXXCS.ENG4.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //unit 4
+    //CDU
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "CDU\\CDU RRU",
+      "ServiceName": "CDU RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy12.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy11.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG1.STyy02.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy13.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy14.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG1.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "CDU\\CDU RRU",
+      "ServiceName": "CDU RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy12.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy11.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG2.STyy02.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy14.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy11.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG2.PTyy14.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "CDU\\CDU RRU",
+      "ServiceName": "CDU RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy04.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG3.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "CDU\\CDU RRU",
+      "ServiceName": "CDU RRU",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy04.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 4
+    //West Turkey Track
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "WWT\\676 641 625 Cylinders WWT",
+      "ServiceName": "676 641 625 Cylinders WWT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "CARLGSG.WTURKECS.ENG1.PTyy19.Pressure"
+        },
+        "Ps2": {
+          "Name": "CARLGSG.WTURKECS.ENG1.PTyy20.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "CARLGSG.WTURKECS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "CARLGSG.WTURKECS.ENG1.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "CARLGSG.WTURKECS.ENG1.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "CARLGSG.WTURKECS.ENG1.STyy02.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG1.PTyy17.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG1.PTyy20.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG1.PTyy18.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG1.PTyy17.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "WWT\\676 641 625 Cylinders WWT",
+      "ServiceName": "676 641 625 Cylinders WWT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "CARLGSG.WTURKECS.ENG2.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "CARLGSG.WTURKECS.ENG2.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "CARLGSG.WTURKECS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "CARLGSG.WTURKECS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "CARLGSG.WTURKECS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "CARLGSG.WTURKECS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG2.PTyy07.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG2.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG2.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG2.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "WWT\\676 641 625 Cylinders WWT",
+      "ServiceName": "676 641 625 Cylinders WWT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy09.Pressure"
+        },
+        "Ps2": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy10.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy09.Temperature"
+        },
+        "Ts2": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "CARLGSG.WTURKECS.ENG3.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "CARLGSG.WTURKECS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG3.PTyy07.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG3.PTyy10.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG3.PTyy08.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "CARLGSG.WTURKECS.ENG3.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "WWT\\676 641 625 Cylinders WWT",
+      "ServiceName": "676 641 625 Cylinders WWT",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy04.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 4
+    //Cross Barr
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "CrossBar\\Cross Barr 1 n 2",
+      "ServiceName": "Cross Barr 1 n 2",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "PEGAGSG.CROSSBACS.ENG1.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy04.Pressure"
+      },
+      "LoadStep": "14",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG1.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "CrossBar\\Cross Barr 1 n 2",
+      "ServiceName": "Cross Barr 1 n 2",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy04.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "PEGAGSG.CROSSBACS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy05.Pressure"
+      },
+      "LoadStep": "14",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG2.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "CrossBar\\Cross Barr 3",
+      "ServiceName": "Cross Barr 3",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG3.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "PEGAGSG.CROSSBACS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "PEGAGSG.CROSSBACS.ENG3.PTyy04.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG3.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "CrossBar\\Cross Barr 4 n 5",
+      "ServiceName": "Cross Barr 4 n 5",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy04.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "PEGAGSG.CROSSBACS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.CDUXXXCS.ENG4.PTyy04.Pressure"
+      },
+      "LoadStep": "15",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG4.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 4
+    {
+      "UnitName": "Unit 5",
+      "ViewerFileName": "CrossBar\\Cross Barr 4 n 5",
+      "ServiceName": "Cross Barr 4 n 5",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy04.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "PEGAGSG.CROSSBACS.ENG5.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy05.Pressure"
+      },
+      "LoadStep": "15",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "PEGAGSG.CROSSBACS.ENG5.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 5
+    //Luther
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "Luther\\Luther 3n4 RRU MH",
+      "ServiceName": "Luther 3n4 RRU MH",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy13.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy01.Temperature"
+        }
+      },
+      //Speed Tag Not available 5/10/18
+      "EngineSpeed": {
+        "Name": "RAWHGSG.LUTHERCS.ENG1.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy04.Pressure"
+      },
+      "LoadStep": "14",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG1.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "Luther\\Luther 3n4 RRU MH",
+      "ServiceName": "Luther 3n4 RRU MH",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy02.Pressuree"
+        },
+        "Ps2": {
+          "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy13.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RAWHGSG.LUTHERCS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy04.Pressure"
+      },
+      "LoadStep": "14",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy13.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RAWHGSG.LUTHERCS.ENG2.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    //Thistle
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "Thistle\\New Thistle Superior RRU KL2",
+      "ServiceName": "New Thistle Superior RRU KL2",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.THISTLCS.ENG1.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.THISTLCS.ENG1.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.THISTLCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.THISTLCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.THISTLCS.ENG1.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.THISTLCS.ENG1.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.THISTLCS.ENG1.PTyy07.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG1.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG1.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "Thistle\\New Thistle Superior RRU KL2",
+      "ServiceName": "New Thistle Superior RRU KL2",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.THISTLCS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.THISTLCS.ENG2.PTyy07.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG2.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG2.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "Thistle\\Thistle Ariel RRU KL",
+      "ServiceName": "Thistle Ariel RRU KL",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy09.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.THISTLCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG3.PTyy07.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG3.PTyy09.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 3
+    {
+      "UnitName": "Unit 4",
+      "ViewerFileName": "Thistle\\Thistle Ariel RRU KL",
+      "ServiceName": "Thistle Ariel RRU KL",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.THISTLCS.ENG4.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.THISTLCS.ENG4.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.THISTLCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.THISTLCS.ENG4.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.THISTLCS.ENG4.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.THISTLCS.ENG4.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.THISTLCS.ENG4.PTyy09.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG4.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG4.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG4.PTyy09.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 4
+    //Reagan
+    {
+      "UnitName": "Unit 2",
+      "ViewerFileName": "Reagan\\Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "ServiceName": "Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RIOBGSG.REAGANCS.ENG2.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "RIOBGSG.REAGANCS.ENG2.PTyy04.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "RIOBGSG.REAGANCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "RIOBGSG.REAGANCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "RIOBGSG.REAGANCS.ENG2.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RIOBGSG.REAGANCS.ENG2.STyy01.Speed"
+      },
+      "DischargePressure": {
+        "Name": "RIOBGSG.REAGANCS.ENG2.PTyy05.Pressure"
+      },
+      "LoadStep": "18",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG2.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG2.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "Reagan\\Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "ServiceName": "Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RIOBGSG.REAGANCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "RIOBGSG.REAGANCS.ENG3.PTyy04.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "RIOBGSG.REAGANCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "RIOBGSG.REAGANCS.ENG3.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "RIOBGSG.REAGANCS.ENG3.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RIOBGSG.REAGANCS.ENG3.STyy01.Speed"
+      },
+      "DischargePressure": {
+        "Name": "RIOBGSG.REAGANCS.ENG3.PTyy05.Pressure"
+      },
+      "LoadStep": "18",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG3.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 3
+    {
+      "UnitName": "Unit 6",
+      "ViewerFileName": "Reagan\\Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "ServiceName": "Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RIOBGSG.REAGANCS.ENG6.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "RIOBGSG.REAGANCS.ENG6.PTyy04.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "RIOBGSG.REAGANCS.ENG6.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "RIOBGSG.REAGANCS.ENG6.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "RIOBGSG.REAGANCS.ENG6.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RIOBGSG.REAGANCS.ENG6.STyy01.Speed"
+      },
+      "DischargePressure": {
+        "Name": "RIOBGSG.REAGANCS.ENG6.PTyy05.Pressure"
+      },
+      "LoadStep": "18",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG6.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG6.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG6.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 6
+    {
+      "UnitName": "Unit 7",
+      "ViewerFileName": "Reagan\\Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "ServiceName": "Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RIOBGSG.REAGANCS.ENG7.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "RIOBGSG.REAGANCS.ENG7.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "RIOBGSG.REAGANCS.ENG7.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "RIOBGSG.REAGANCS.ENG7.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "RIOBGSG.REAGANCS.ENG7.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RIOBGSG.REAGANCS.ENG7.STyy01.Speed"
+      },
+      "DischargePressure": {
+        "Name": "RIOBGSG.REAGANCS.ENG7.PTyy04.Pressure"
+      },
+      "LoadStep": "18",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG7.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG7.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG7.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 7
+    {
+      "UnitName": "Unit 8",
+      "ViewerFileName": "Reagan\\Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "ServiceName": "Reagan 8 WA4 RRU 676 641 625 cylinders",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "RIOBGSG.REAGANCS.ENG8.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "RIOBGSG.REAGANCS.ENG8.PTyy04.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "RIOBGSG.REAGANCS.ENG8.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "RIOBGSG.REAGANCS.ENG8.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "RIOBGSG.REAGANCS.ENG8.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "RIOBGSG.REAGANCS.ENG8.STyy01.Speed"
+      },
+      "DischargePressure": {
+        "Name": "RIOBGSG.REAGANCS.ENG8.PTyy05.Pressure"
+      },
+      "LoadStep": "18",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG8.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG8.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "RIOBGSG.REAGANCS.ENG8.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 8
+    //Parks
+    {
+      "UnitName": "Unit 1",
+      "ViewerFileName": "Parks\\Parks MH66",
+      "ServiceName": "Parks MH66",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "PARKGSG.PARKSXCS.ENG1.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "PARKGSG.PARKSXCS.ENG1.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "PARKGSG.PARKSXCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "PARKGSG.PARKSXCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "PARKGSG.PARKSXCS.ENG1.PTyy01.Temperature"
+        },
+        "Ts4": {
+          "Name": "PARKGSG.PARKSXCS.ENG1.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "PARKGSG.PARKSXCS.ENG1.STyy01.Speed"
+      },
+      "DischargePressure": {
+        "Name": "PARKGSG.PARKSXCS.ENG1.PTyy05.Pressure"
+      },
+      "LoadStep": "18",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "PARKGSG.PARKSXCS.ENG1.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 3,5]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "PARKGSG.PARKSXCS.ENG1.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 4,6 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "PARKGSG.PARKSXCS.ENG1.PTyy04.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 4,
+          "Pd": {
+            "Name": "PARKGSG.PARKSXCS.ENG1.PTyy05.Pressure"
+          },
+          "CylinderSet": [ 1 ]
+        }
+      ]
+    }, //Unit 1
+    {
+      "UnitName": "Unit 2",
+       "ViewerFileName": "Parks\\Parks MH66",
+      "ServiceName": "Parks MH66",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy01.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy02.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.THISTLCS.ENG2.PTyy03.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.THISTLCS.ENG2.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "EUNIGSG.THISTLCS.ENG2.PTyy07.Pressure"
+      },
+      "LoadStep": "12",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG2.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG2.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG2.PTyy07.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    }, //Unit 2
+    {
+      "UnitName": "Unit 3",
+      "ViewerFileName": "Thistle\\Thistle Ariel RRU KL",
+      "ServiceName": "Thistle Ariel RRU KL",
+      "StageSuctionPressure": {
+        "Ps1": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy02.Pressure"
+        },
+        "Ps2": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Pressure"
+        }
+      },
+      //Not updated Tags, need to change after spotlight tags are available
+      "StageSuctionTemperature": {
+        "Ts1": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy09.Temperature"
+        },
+        "Ts2": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Temperature"
+        },
+        "Ts3": {
+          "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Temperature"
+        }
+      },
+      "EngineSpeed": {
+        "Name": "EUNIGSG.THISTLCS.ENG3.STyy01.RPM"
+      },
+      "DischargePressure": {
+        "Name": "CARLGSG.WTURKECS.ENG3.PTyy07.Pressure"
+      },
+      "LoadStep": "11",
+      "Stages": [
+        {
+          "Stage": 1,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG3.PTyy01.Pressure"
+          },
+          "CylinderSet": [ 1, 3 ]
+        },
+        {
+          "Stage": 2,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG3.PTyy03.Pressure"
+          },
+          "CylinderSet": [ 2 ]
+        },
+        {
+          "Stage": 3,
+          "Pd": {
+            "Name": "EUNIGSG.THISTLCS.ENG3.PTyy09.Pressure"
+          },
+          "CylinderSet": [ 4 ]
+        }
+      ]
+    } //Unit 3
+
+  ]
+}
